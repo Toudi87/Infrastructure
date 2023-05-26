@@ -37,6 +37,7 @@ services:
       restart: always
       environment:
         - JENKINS_AGENT_SSH_PUBKEY=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC5eYB4kLI6UzbzY8U8gjVYOReV4UW6+Y94mqU5QIzzsa8uPr26vDuYepR0Fg7hSwajlgY8/3P8onj+OsHBSDmn/8hng8W2HnM5oCNf7NjrhAr4Nd4D1sM9t9hZsq3SOIrcbx3zZ4rhlTzFM6S4mJzPt3aUIL9NdnLCI9zx1U4xETSYU+DY/UyNdHilqk3KXthEURqm26RuyraIZ/rS8+BGgupi1oF1WA+Q/+GZFdUy5tCv33Ya7jtw2rJybx+n3e5VVKerjzgjIIfTsx2NB7kgNYzKBNWDKK0BXMTfBsH2dvWQDX0gc1ieFqhC7AGzzpAVR6Phfui/yElJJptoFhP25exMWze2pkdlFOeYTUrj7sKsevqchMREsbbBIBmiN1M0R5QkX6gqNckSc309QgTo00sEKFi7zaufNPefspDVNCqjVf3nHrTTwJal/eFxoJy1SGmjKZFq5nPwGeUhGm8rvMrEuHpEOZSWB3DI3WYcbLP+EscnQTWHbDO88Ru8MG0= panda@vagrant
+  
   sonarqube:  
       depends_on:
         - jenkins
