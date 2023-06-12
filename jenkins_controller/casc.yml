@@ -87,6 +87,16 @@ tool:
             installers:
             - sonarRunnerInstaller:
                 id: "4.7.0.2747"
+
+  terraform:
+    installations:
+    - name: "Terraform"
+      properties:
+      - installSource:
+          installers:
+          - terraformInstaller:
+              id: "30405-linux-amd64"
+              
 unclassified:
   sonarGlobalConfiguration:
       buildWrapperEnabled: false
